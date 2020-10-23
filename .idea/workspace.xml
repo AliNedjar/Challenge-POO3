@@ -25,6 +25,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -39,6 +41,7 @@
       <workItem from="1603389543785" duration="2525000" />
       <workItem from="1603435465317" duration="1496000" />
       <workItem from="1603459239770" duration="224000" />
+      <workItem from="1603477812912" duration="351000" />
     </task>
     <servers />
   </component>

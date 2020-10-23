@@ -1,6 +1,6 @@
 <?php
 
-abstract class Highway
+abstract class HighWay
 {
     /**
      * @var array
@@ -57,6 +57,8 @@ abstract class Highway
         $this->maxSpeed = $maxSpeed;
 
     }
+
+    abstract public function addMoreVehicle($highwayVehicle);
 
 
 
