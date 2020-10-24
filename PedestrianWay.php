@@ -4,15 +4,18 @@ require 'HighWay.php';
 
 final class PedestrianWay extends HighWay
 {
-    /**
-     * @var int
-     */
-    protected $nbLane = 1;
+    public function __construct()
+    {
+        parent::setNbLane(1);
+        parent::setMaxSpeed(10);
+    }
 
-    /**
-     * @var int
-     */
-    protected $maxSpeed = 10;
+    public function addMoreVehicle(Vehicle $vehicle)
+    {
+        if ($vehicle instanceof Bicycle){
+            $currentVehicles[] = $vehicle;
+        }
+    }
 
 
 }

@@ -6,13 +6,15 @@ final class ResidentialWay extends HighWay
 {
     public function __construct()
     {
-        $this->nbLane = 2;
-        $this->maxSpeed = 50;
+        parent::setNbLane(2);
+        parent::setMaxSpeed(50);
     }
 
-    public function addMoreVehicle()
+    public function addMoreVehicle(Vehicle $vehicle)
     {
-        $highWayVehicle[] = $this;
+        if ($vehicle instanceof Car and $this instanceof Truck){
+            $currentVehicles[] = $vehicle;
+        }
     }
 }
 

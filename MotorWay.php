@@ -4,15 +4,18 @@ require 'HighWay.php';
 
 final class MotorWay extends HighWay
 {
-    /**
-     * @var int
-     */
-    protected $nbLane = 4;
+    public function __construct()
+    {
+        parent::setNbLane(4);
+        parent::setMaxSpeed(130);
+    }
 
-    /**
-     * @var int
-     */
-    protected $maxSpeed = 130;
+    public function addMoreVehicle(Vehicle $vehicle)
+    {
+        if ($vehicle instanceof Car){
+            $currentVehicles[] = $vehicle;
+        }
+    }
 
 
 }
