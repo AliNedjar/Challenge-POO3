@@ -1,19 +1,24 @@
 <?php
 
-require 'HighWay.php';
+require_once 'HighWay.php';
 
 final class PedestrianWay extends HighWay
 {
     public function __construct()
     {
-        parent::setNbLane(1);
-        parent::setMaxSpeed(10);
+        parent::__construct(1, 10);
     }
 
     public function addMoreVehicle(Vehicle $vehicle)
     {
-        if ($vehicle instanceof Bicycle){
-            $currentVehicles[] = $vehicle;
+        $message = '';
+        if ($vehicle instanceof Car and $vehicle instanceof Truck) {
+            $message= 'peux pas conduire ici';
+
+        } else {
+            $this->currentVehicle[] = $vehicle;
+            $message = 'circulez!';
+
         }
     }
 

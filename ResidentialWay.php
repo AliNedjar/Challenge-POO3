@@ -5,16 +5,17 @@ require_once 'HighWay.php';
 final class ResidentialWay extends HighWay
 {
     public function __construct()
-    {
-        parent::setNbLane(2);
-        parent::setMaxSpeed(50);
-    }
+{
+    parent::__construct(2, 50);
+}
 
     public function addMoreVehicle(Vehicle $vehicle)
     {
-        if ($vehicle instanceof Car and $this instanceof Truck){
-            $currentVehicles[] = $vehicle;
+        $message = '';
+        $this->currentVehicle[] = $vehicle;
+        $message = 'circulez!';
+
         }
-    }
+
 }
 
