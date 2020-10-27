@@ -36,5 +36,18 @@ $motor->addMoreVehicle($bike);
 
 
 
+$car->setHasParkBrake(true);
+try {
+    $car->forward();
+} catch (Exception $exception) {
+    echo 'Cannot start, : ' . $exception->getMessage();
+    $car->setHasParkBrake(false);
+    var_dump($car);
+} finally {
+    echo 'Ma voiture roule comme un donut';
+}
+
+
+
 
 

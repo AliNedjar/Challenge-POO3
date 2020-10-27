@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1424b33c-80a8-48be-8ca0-92422ac08466" name="Default Changelist" comment="updated quest">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    <list default="true" id="1424b33c-80a8-48be-8ca0-92422ac08466" name="Default Changelist" comment="updated questfinal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HighWay.php" beforeDir="false" afterPath="$PROJECT_DIR$/HighWay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotorWay.php" beforeDir="false" afterPath="$PROJECT_DIR$/MotorWay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PedestrianWay.php" beforeDir="false" afterPath="$PROJECT_DIR$/PedestrianWay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResidentialWay.php" beforeDir="false" afterPath="$PROJECT_DIR$/ResidentialWay.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +72,8 @@
       <workItem from="1603477812912" duration="843000" />
       <workItem from="1603553307247" duration="2057000" />
       <workItem from="1603555377064" duration="913000" />
-      <workItem from="1603698243534" duration="5236000" />
+      <workItem from="1603698243534" duration="5857000" />
+      <workItem from="1603811855082" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="updated quest">
       <created>1603555680591</created>
@@ -86,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603555680591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated questfinal">
+      <created>1603711149397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603711149397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated quest" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated quest" />
+    <MESSAGE value="updated questfinal" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated questfinal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="749" y="200" width="412" height="645" key="#com.intellij.ide.util.MemberChooser" timestamp="1603478105742">
@@ -129,10 +133,10 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="449" y="154" width="1022" height="737" key="SettingsEditor/0.27.1920.985@0.27.1920.985" timestamp="1603436283214" />
-    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603555686876">
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603711158118">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1603555686876" />
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1603711158118" />
     <state x="623" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1603554225223">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
