@@ -2,7 +2,7 @@
 
 require_once 'Vehicle.php';
 
-class Car extends Vehicle
+class Car extends Vehicle implements LightableInterface
 {
 
     const ALLOWED_ENERGIES = [
@@ -73,6 +73,15 @@ class Car extends Vehicle
         return parent::forward();
     }
 
+    public function switchOn(): bool
+    {
+        return true;
+    }
+
+    public function switchOff(): bool
+    {
+        return false;
+    }
 
 
 }
