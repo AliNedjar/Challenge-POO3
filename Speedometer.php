@@ -1,0 +1,8 @@
+<?php
+
+static class Speedometer
+{
+
+
+
+}
